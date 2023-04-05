@@ -1,0 +1,14 @@
+<svg width="804" height="148" viewBox="0 0 804 148" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M16 132V88C16 81.3726 21.3726 76 28 76H390C396.627 76 402 70.6274 402 64V20" stroke="#4E70D1" stroke-width="2" stroke-linecap="round"/>
+<path d="M16 131V128" stroke="#4E70D1" stroke-width="2" stroke-linecap="round"/>
+<path d="M24 124L16 132L8 124" stroke="#4E70D1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M402 130V62" stroke="#4E70D1" stroke-width="2" stroke-linecap="round"/>
+<path d="M402 129V114" stroke="#4E70D1" stroke-width="2" stroke-linecap="round"/>
+<path d="M394 122L402 130L410 122" stroke="#4E70D1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M788 132V88C788 81.3726 782.627 76 776 76H414C407.373 76 402 70.6274 402 64V20" stroke="#4E70D1" stroke-width="2" stroke-linecap="round"/>
+<path d="M788 131V128" stroke="#4E70D1" stroke-width="2" stroke-linecap="round"/>
+<path d="M780 124L788 132L796 124" stroke="#4E70D1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path opacity="0.4" d="M422 20C422 8.9543 413.046 0 402 0C390.954 0 382 8.9543 382 20C382 31.0457 390.954 40 402 40C413.046 40 422 31.0457 422 20Z" fill="#4E70D1"/>
+<path d="M421 20C421 9.50659 412.493 1 402 1C391.507 1 383 9.50659 383 20C383 30.4934 391.507 39 402 39C412.493 39 421 30.4934 421 20Z" stroke="#4E70D1" stroke-width="2"/>
+<path d="M402 24.5C404.485 24.5 406.5 22.4853 406.5 20C406.5 17.5147 404.485 15.5 402 15.5C399.515 15.5 397.5 17.5147 397.5 20C397.5 22.4853 399.515 24.5 402 24.5Z" fill="white" stroke="#4E70D1" stroke-width="3"/>
+</svg>

@@ -1,0 +1,197 @@
+.Functional h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  text-transform: uppercase;
+  color: #324c98;
+  margin-bottom: 90px;
+}
+.HeadContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  clip-path: polygon(25% 100%, 75% 100%, 100% 0, 0 0);
+
+}
+.Functional {
+  margin-top: 100px;
+}
+.FirstPart {
+  /* padding: 0 20px; */
+  width: 100%;
+  height:100%;
+  background: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* position: relative; */
+  overflow: hidden;
+}
+.FirstPart p {
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+  height:90px;
+  padding: 20px 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #324c98;
+  flex: 1;
+  display: flex;
+  /* text-align:center; */
+  align-items: center;
+    justify-content: center;
+  order: 1;
+  /* flex-grow: 1; */
+  cursor: pointer;
+}
+.FirstPart span {
+  display: inline-flex;
+  padding: 22px 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #324c98;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  cursor: pointer;
+}
+.FirstPart span:nth-child(4),
+span:nth-child(6),
+span:nth-child(2) {
+  border-left: 1px solid #324c98;
+}
+.FirstPart p:first-child {
+  padding-left: 5%;
+
+}
+.FirstPart p:last-child {
+  padding-right: 5%;
+}
+
+.FirstPart p.active {
+  background-color: #324c98;
+  color: #ffffff;
+}
+
+.SecondPart {
+  width: 85%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #f3f0f0;
+  overflow: hidden;
+}
+.SecondPart p{
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+  height:90px;
+  padding: 22px 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #324c98;
+  flex: 1;
+  display: flex;
+  /* text-align:center; */
+  align-items: center;
+    justify-content: center;
+  order: 1;
+  /* flex-grow: 1; */
+  cursor: pointer;
+}
+.SecondPart span {
+  display: inline-flex;
+  padding: 22px 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #324c98;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  cursor: pointer;
+}
+.HeadContainer .SecondPart:nth-child(1){
+  border-bottom: 1px solid gray;
+}
+
+.SecondPart span:nth-child(4),
+span:nth-child(6),
+span:nth-child(2) {
+  border-left: 1px solid #324c98;
+}
+.SecondPart p:first-child {
+  padding-left: 10.5%;
+}
+.SecondPart p:last-child {
+  padding-right: 10.5%;
+}
+
+.SecondPart p.active {
+  background-color: #324c98;
+  color: #ffffff;
+}
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1281px) {
+.Functional h1{
+font-size: 33px;
+
+}
+.FirstPart p{
+  font-size: 18px;
+}
+.SecondPart p{
+  font-size: 18px;
+}
+  }
+  @media only screen and (min-device-width : 993px) and (max-device-width : 1024px) {
+    .Functional h1{
+      font-size: 28px;
+      }
+      .FirstPart p{
+        font-size: 16px;
+      }
+      .SecondPart p{
+        font-size: 16px;
+      }
+  }
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    .Functional h1{
+      font-size: 25px;
+      margin-bottom: 30px;
+    }
+    .FirstPart p{
+      font-size: 10px;
+      height: 50px;
+      line-height: 12px;
+    }
+    .SecondPart p{
+      font-size: 10px;
+      height: 50px;
+      line-height: 12px;
+    }
+    
+  }

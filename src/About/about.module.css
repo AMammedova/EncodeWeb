@@ -1,0 +1,41 @@
+.About{
+  
+    margin-top: 22%;
+ 
+}
+
+.About h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #324c98;
+}
+@media only screen and (max-width: 1540px) {
+.About h1{
+  font-size: 36px;
+}
+.AboutContent p{
+  font-size: 22px;
+}
+}
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1281px) {
+  .About h1{
+    font-size: 30px;
+  }
+  }
+  @media only screen and (min-device-width : 993px) and (max-device-width : 1024px) {
+    .About h1{
+      font-size: 28px;
+    }
+    }
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+      .About h1{
+        font-size: 25px;
+      }
+      }

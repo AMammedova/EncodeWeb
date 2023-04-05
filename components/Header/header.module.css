@@ -1,0 +1,122 @@
+.Navbar {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+
+  width: 80%;
+  z-index: 999;
+}
+.Scroll {
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+
+  width: 80%;
+  z-index: 999;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.8);
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+}
+.NavbarScroll a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #324c98;
+}
+.NavbarScroll a:hover {
+  color: #3d2b7a;
+}
+.NavbarScroll {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Logo {
+  width: 20%;
+  margin-left: 8px;
+}
+.NavLinks {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.NavLinks a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #efefef;
+}
+.NavLinks a:hover {
+  color: #0077b6;
+}
+
+
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1281px) {
+  .Navbar{
+    padding: 5px 20px;
+  }
+  }
+  @media only screen and (min-device-width : 993px) and (max-device-width : 1024px) {
+    .NavLinks {
+     width: 70%;
+    }
+    .Logo img{
+      width: 80px;
+      height: 75px;
+    } 
+    .NavbarScroll{
+      width: 70%;
+    }
+
+    }
+
+    @media only screen and (min-device-width : 820px) and (max-device-width : 992px) {
+      .NavLinks {
+        width: 70%;
+       }
+       .Logo img{
+         width: 70px;
+         height: 65px;
+       } 
+       .NavbarScroll{
+         width: 70%;
+       }
+       .NavLinks{
+        width: 80%;
+       }
+       
+       .Scroll{
+        width: 65%;
+       }
+       .NavLinks a{
+        font-size: 11px;
+       }
+       .Navbar{
+        width: 65%;
+       }
+    }
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+      .Navbar{
+        width: 300px;
+      }
+.NavLinks{
+  display: none;
+  
+}
+.Scroll{display: none;}
+    }

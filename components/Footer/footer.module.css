@@ -1,0 +1,87 @@
+.Footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footerLogo p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 15px;
+}
+.footerLogo img{
+    width: 127px;
+    height: 120px;
+}
+.contactContainer,.emailContainer{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.footerContact span{
+    font-family: 'Istok Web';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+color: #324C98;
+border-left: none;
+margin-left: 10px;
+
+}
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1281px) {
+
+.footerLogo p{
+    font-size: 18px;
+}}
+
+@media only screen and (min-device-width : 993px) and (max-device-width : 1024px) {
+    .footerLogo p{
+        font-size: 16px;
+    }
+    .footerContact span{
+        font-size: 14px;
+    }
+    .footerContact img{
+        width: 16px;
+        height: 16px;
+    }
+    .footerLogoImg{
+        width: 70%;
+    }
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .Footer{
+        flex-wrap: wrap;
+    }
+    .footerLogo p{
+        font-size: 12px;
+    }
+    .footerContact span{
+        font-size: 12px;
+    }
+    .footerLogo img{
+        width: 80px;
+        height: 75px;
+    }
+    .footerLogoImg img{
+        width: 70%;
+        margin-top: -25%;
+        margin-left: 18%;
+    }
+    .footerContact img{
+        width: 12px;
+        height: 12px;
+    }
+    .contactContainer{
+        width: 140px;
+    }
+    .emailContainer{
+        width: 140px;
+    }
+}

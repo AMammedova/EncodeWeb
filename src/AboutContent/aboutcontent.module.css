@@ -1,0 +1,71 @@
+.Content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .AboutContent {
+    
+    width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #EFEFEF;
+box-shadow: 19.7834px 18.3743px 70px rgba(0, 0, 0, 0.09), 7.62028px 7.07752px 22.2963px rgba(0, 0, 0, 0.0546667), 1.61198px 1.49717px 5.7037px rgba(0, 0, 0, 0.0353333);
+border-radius: 10px;
+padding: 120px 140px 94px 100px;
+margin-top: 85px;
+
+}
+.Logo{
+    width: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.AboutContent img {
+    width: 267px;
+    height: 251px;
+ 
+}
+.AboutContent p {
+  width: 50%;
+  margin: 0 !important;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #3e3e3e;
+}
+@media only screen and (max-width: 1540px) {
+  .AboutContent p{
+    font-size: 22px;
+  }
+  }
+  @media only screen and (min-device-width : 993px) and (max-device-width : 1024px) {
+    .AboutContent{
+      padding: 80px 90px 70px 70px;
+    }
+    .AboutContent p{
+      font-size: 18px;
+    }
+      }
+      @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        .AboutContent{
+        background: none;
+        box-shadow: none;
+        flex-direction: column-reverse;
+        padding:0;
+        width: 80%;
+        margin: 0 auto;
+        }
+        .AboutContent p{
+          font-size: 17px;
+          width: 100%;
+        }
+        .AboutContent img{
+          width: 250px;
+          height: 250px;
+          margin-top: 10%;
+        }
+          }

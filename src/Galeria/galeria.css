@@ -1,0 +1,140 @@
+/* .GaleriaSlider{
+  height: 400px;
+}
+.GaleriaSlider h2{
+  
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 49px;
+
+
+text-transform: uppercase;
+
+color: #324C98;
+}
+.ImgContainer{
+  width: 100% !important;
+
+border: 6px solid rgba(50, 76, 152, 0.6);
+  overflow: hidden;
+  transition: all 400ms ease-in-out;
+}
+.slick-list,.slick-slider,.slick-track{
+  width: 100% !important;
+  padding: 40px 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.center .slick-list{
+  text-align: center;
+}
+
+.slick-slide div:first-child{
+  width: 600px;
+ padding: 20px 0;
+}
+.slick-current .ImgContainer{
+transform: scale(1.1);
+z-index: 1000 !important;
+transition: all 400ms ease-in-out;
+pointer-events: all;
+}
+.slick-slide .ImgContainer{
+  opacity: 0.7;
+  pointer-events: none;
+}
+.slick-center{
+  margin: 0 100px 0 60px;
+}
+.slick-center .ImgContainer{
+  opacity: 1 !important;
+}
+.ButtonContainer{
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0 auto;
+}
+.ButtonContainer button{
+  border: none;
+}
+.slick-prev:before{
+  opacity: 0;
+}
+.slick-next:before{
+  opacity: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+ */
+
+ .slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+.slick-slider {
+  margin: 30px auto 50px;
+}
+.slick-list, .slick-slider {
+  position: relative;
+  display: block;
+}
+.slick-list{
+  padding: 0px 60px;
+}
+.slick-slide .slider-item {
+  opacity: .8;
+  transition: all .3s ease;
+}
+.slick-slide{
+  margin: 0 20px;
+}
+.slider-item{
+  width: 680px;
+height: 240px;
+border: 6px solid rgba(50, 76, 152, 0.6);
+  padding: 2%;
+  position: relative;
+  text-align: center;
+}
+.slick-center.slick-current .slider-item{
+  opacity: 1;
+    transform: scale(1.08);
+}
+.ButtonContainer{
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0 auto;
+}
+.ButtonContainer button{
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+.slick-prev:before{
+  opacity: 0;
+}
+.slick-next:before{
+  opacity: 0 !important;
+}
